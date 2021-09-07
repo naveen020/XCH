@@ -1,0 +1,78 @@
+.slect-bk-product .user-products{
+    width: 15%;
+}
+.select-bk-product-content .slect-bk-product {
+    display: flex;
+}
+.select-bk-product-content .select-prd-header {
+   padding: 24px;
+}
+.select-bk-product-content .sh-user-bk-products {
+    border: 1px #9dadb6 solid;
+    width: 75%;
+    padding: 16px;
+    height: 500px;
+    overflow: scroll;
+}
+.slect-bk-product .sh-user-bk-products .show-lg-user-bk-product-details {
+    list-style-type: none;
+    display: block;
+}
+.slect-bk-product .sh-user-bk-products .show-lg-user-bk-product-details .show-user-bk-products {
+    max-width: 15%;
+    min-width: 15%;
+    padding: 16px;
+    display: inline-block;
+}
+.sh-user-bk-products .show-lg-user-bk-product-details .show-user-bk-products  .user-bk-product-section-1 {
+    padding: 10px;
+    height: 100%;
+}
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-image .show-user-bk-product-object {
+    border-radius: 12px;
+    cursor: pointer;
+    width:100%;
+}
+.show-lg-user-bk-product-details .lg-select-disable .show-bk-product-xch-btn,
+.show-lg-user-bk-product-details .lg-cancle-disable .show-bk-product-xch-cancle-btn  {
+   display: none;
+}
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-info {
+    text-align: center;
+}
+.show-user-bk-products  .user-bk-product-section-1  .show-user-bk-product-price,
+.show-user-bk-products  .user-bk-product-section-1  .show-user-bk-product-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-user-bk-products  .user-bk-product-section-1 .show-bk-product-xch-select-btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-user-bk-products  .user-bk-product-section-1 .bk-product-xch-select-btn-outline,
+.show-user-bk-products  .user-bk-product-section-1 .bk-product-xch-select-btn-outline,
+.show-user-bk-products  .user-bk-product-section-1 .bk-product-xch-select-cancle-btn {
+    color: rgb(45, 49, 64);
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(45, 49, 64);
+    border-image: initial;
+    padding: 5px 15px;
+    text-decoration: none !important;
+}
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-info .show-bk-prd-pbName,
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-info .show-bk-prd-pbPrice,
+.show-user-bk-products  .user-bk-product-section-1 .show-user-bk-product-info .show-bk-prd-pblocation {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

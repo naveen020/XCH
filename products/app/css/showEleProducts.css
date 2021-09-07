@@ -1,0 +1,81 @@
+.show-ele-products-content .show-ele-products-section-1 {
+    max-width: 20%;
+    padding: 24px;
+    min-width: 20%;
+    display: inline-block;
+}
+.show-ele-products-content .show-ele-products-section-1 .show-product-object-img {
+    width: 100%;
+    height: 400px;
+    border-radius: 24px;
+}
+.show-ele-products-content .show-user-details-sections-3.lg-disable {
+    display: none;
+}
+.show-ele-products-content .show-ele-details,
+.show-ele-products-content .show-user-details-sections-3,
+.show-ele-products-content .show-user-details-sections-3 .show-user-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show-user-details-sections-3 .show-user-details .show-user-name {
+    padding: 0 24px;
+}
+.show-user-details-sections-3 .show-user-details .start-button.lg-disable,
+.show-user-details-sections-3 .show-user-details .accept-button.lg-disable {
+    display: none;
+}
+.show-user-details-sections-3 .show-user-details .accept-button .accept-offer,
+.show-user-details-sections-3 .show-user-details .start-button .start-chat {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    color: #FFFFFF;
+    background-color: #4CAF50;
+}
+.show-ele-products-content .show-ele-products-section-2 {
+    padding: 24px;
+    width: 60%;
+}
+.show-ele-products-content .show-ele-products-section-2  .ele-details {
+    padding-bottom: 24px;
+ }
+ .show-ele-products-content .show-ele-products-section-2 .ele-com-detail-name,
+ .show-ele-products-content .show-ele-products-section-2 .ele-com-detail-Price,
+ .show-ele-products-content .show-ele-products-section-2 .ele-com-detail-main-feature,
+ .show-ele-products-content .show-ele-products-section-2 .ele-com-detail-location,
+ .show-ele-products-content .show-ele-products-section-2 .ele-com-detail-description {
+    align-items: center;
+    padding: 0px 32px 16px 32px;
+    display: flex;
+}
+
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-name .ele-detail-hd-name,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-Price .ele-detail-hd-Price,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-main-feature .ele-detail-hd-main-feature,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-location .ele-detail-hd-location,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-description .ele-detail-hd-description {
+    display: contents;
+}
+
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-name .ele-detail-hd-name .ele-detail-name,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-Price .ele-detail-hd-Price .ele-detail-Price,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-main-feature .ele-detail-hd-main-feature .ele-detail-main-feature,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-location .ele-detail-hd-location .ele-detail-location,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-description .ele-detail-hd-description .ele-detail-description {
+    width: 25%;
+}
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-name .ele-detail-prd-name,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-Price .ele-detail-prd-Price,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-main-feature .ele-detail-prd-main-feature,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-location .ele-detail-prd-location,
+.show-ele-products-content .show-ele-products-section-2 .ele-com-detail-description .ele-detail-prd-description {
+    color: #5f6368;
+
+}   

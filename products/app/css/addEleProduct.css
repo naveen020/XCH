@@ -1,0 +1,116 @@
+.content-page .ele-product .lg-container{
+    padding: 32px 0;
+    width: 90%;
+    margin: auto;
+}
+.content-page .ele-products-content .ele-product .lg-container {
+    padding: 32px 0;
+    width: 90%;
+    margin: auto;
+}
+.ele-products-content .ele-product .lg-container .col-add-ele-product-section {
+    min-height: 400px;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px #000 solid;
+    background-color: #fff;
+    display: flex;
+}
+.ele-products-content .ele-product .lg-container .add-ele-product-section-1,
+.ele-products-content .ele-product .lg-container .add-ele-product-section-2 {
+    padding: 35px;
+}
+.ele-products-content .ele-product .lg-container .add-ele-product-section-1 {
+    width: 65%;
+}
+.ele-products-content .ele-product .lg-container .ele-product-fields {
+    display: flex;
+    padding: 8px 0;
+    align-items: center;
+}
+.add-ele-products-label-feilds,
+.col-add-ele-product-section .ele-choose-type  {
+    /* padding-top: 12px; */
+    width: 25%;
+}
+.add-ele-product-section-1 .col-sm-4{
+    font-weight: 900;
+    font-size: 16px;
+}
+.col-add-ele-product-section .ele-product-fields .col-sm-ele-input {
+    width: 65%
+}
+.col-add-ele-product-section .ele-product-fields .dropbtn-ele-category{
+    height: 36px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 20px;
+}
+.col-add-ele-product-section .ele-dropdown-types {
+    height: 36px;
+    font-size: 20px;
+}
+.add-ele-product-section-1 .form-control  {
+    display: block;
+    width: 95%;
+    height: 24px;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+.add-ele-product-section-1 .input-description {
+   height: 100px;
+}
+.add-ele-product-details .ele-product-form-btn {
+    padding: 16px;
+    display: flex;
+}
+.add-ele-product-details .ele-product-form-btn .ele-product-submit-btn  {
+    margin-left: 40%;
+}
+.add-ele-product-details .ele-product-form-btn .ele-product-submit-btn-outline,
+.add-ele-product-details .ele-product-form-btn .ele-product-cancle-btn-outline {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+.add-ele-product-details .ele-product-form-btn .ele-product-submit-btn,
+.add-ele-product-details .ele-product-form-btn .ele-product-cancle-btn   {
+    width: 25%;
+    padding: 0 32px;
+}
+.ele-products-content .ele-product .lg-container .ele-product-desc {
+    align-items: baseline;
+}
+.ele-products-content .ele-product .lg-container .add-ele-product-section-2 {
+    padding-top: 36px;
+    width: 15%;
+}
+.ele-product .lg-container .add-ele-product-section-2 .ele-product-lg-container {
+    min-height: 173px;
+    min-width: 150px;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px #9dadb6 solid;
+    background-color: #ffffff;
+    display: flex;
+}
+.lg-container .add-ele-product-section-2 .add-ele-product-image-section{
+    width: 100%;
+}
+.add-ele-product-image .add-ele-product {
+    color: #9dadb6;
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    font-family: icons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 7;
+}
+.add-ele-product-image .tag-disable {
+    display: none;
+}
