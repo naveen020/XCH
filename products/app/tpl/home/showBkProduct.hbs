@@ -1,0 +1,80 @@
+<link href="app/css/showBkProducts.css" rel="stylesheet">
+<div class="show-bk-details-head">
+    <div class="show-bk-details">
+         <div class="show-bkp-products-section-1">
+        <div class="show-lg-prd-detalis show-product-hm-container">
+            <div class="show-product-image">
+                <img class="show-product-object-img" src="app/product_Img/{{productId}}_{{pfileName}}">
+            </div>
+        </div>
+    </div>
+    <div class="show-bkp-products-section-2">
+        <div class="bk-details">
+            <h2 class="bk-details-header"> Book Details</h2>
+        </div>
+        <div class="bk-com-detail-name">
+            <div class="bk-detail-hd-name">
+                <h3 class="bk-detail-name"> Name :</h3>
+            </div>     
+            <div class="bk-detail-prd-name">
+                <h4 class="bk-detail-prd-name">{{pbookName}}</h4>
+            </div>             
+        </div>
+        <div class="bk-com-detail-author">
+            <div class="bk-detail-hd-author">
+                <h3 class="bk-detail-author"> Author :</h3>
+            </div>     
+            <div class="bk-detail-prd-author">
+                <h4 class="bk-detail-prd-author">{{pbookAuthor}}</h4>
+            </div>             
+        </div>
+        <div class="bk-com-detail-storyType">
+            <div class="bk-detail-hd-storyType">
+                <h3 class="bk-detail-storyType"> Story type :</h3>
+            </div>     
+            <div class="bk-detail-prd-storyType">
+                <h4 class="bk-detail-prd-storyType">{{pbookStory}}</h4>
+            </div>             
+        </div>
+        <div class="bk-com-detail-Price">
+            <div class="bk-detail-hd-Price">
+                <h3 class="bk-detail-Price"> Price :</h3>
+            </div>     
+            <div class="bk-detail-prd-Price">
+                <h4 class="bk-detail-prd-Price">{{pbookPrice}}/-</h4>
+            </div>             
+        </div>
+        <div class="bk-com-detail-Location">
+            <div class="bk-detail-hd-Location">
+                <h3 class="bk-detail-Location"> Location :</h3>
+            </div>     
+            <div class="bk-detail-prd-Location">
+                <h4 class="bk-detail-prd-Location">{{pbookLocation}}</h4>
+            </div>             
+        </div>
+        <div class="bk-com-detail-Description">
+            <div class="bk-detail-hd-Description">
+                <h3 class="bk-detail-Description"> Description :</h3>
+            </div>     
+            <div class="bk-detail-prd-Description">
+                <h4 class="bk-detail-prd-Description">{{pbookDescription}}</h4>
+            </div>             
+        </div>
+    </div>
+    </div>
+    <div class="show-user-details-sections-3 lg-disable">
+        <div class="show-user-details">
+            <div class="show-user-name">
+                <span class="show-name">
+                    <h3> Are you ready to exchange with {{sendUserName}} ?</h3>
+                </span>
+            </div>
+            <div class="accept-button" id="accept-button">
+                <button type="submit" id="accept-offer" class="accept-offer"> Exchange </button>
+            </div>
+            <div class="start-button lg-disable" id="start-button">
+                <button type="submit" id="start-chat" class="start-chat"> Start chat </button>
+            </div>
+        </div>
+    </div>
+</div>

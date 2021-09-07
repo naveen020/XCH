@@ -1,0 +1,70 @@
+<link href="app/css/showEleProducts.css" rel="stylesheet">
+<div class="show-ele-details">
+    <div class="show-ele-products-section-1">
+        <div class="show-lg-prd-detalis show-product-hm-container">
+            <div class="show-product-image">
+                <img class="show-product-object-img" src="app/product_Img/{{eleId}}_{{pfileName}}">
+            </div>
+        </div>
+    </div>
+    <div class="show-ele-products-section-2">
+        <div class="ele-details">
+            <h2 class="ele-details-header"> {{peleType}} Details</h2>
+        </div>
+        <div class="ele-com-detail-name">
+            <div class="ele-detail-hd-name">
+                <h3 class="ele-detail-name"> Name :</h3>
+            </div>     
+            <div class="ele-detail-prd-name">
+                <h4 class="ele-detail-prd-name">{{peleName}}</h4>
+            </div>             
+        </div>
+        <div class="ele-com-detail-Price">
+            <div class="ele-detail-hd-Price">
+                <h3 class="ele-detail-Price"> Price :</h3>
+            </div>     
+            <div class="ele-detail-prd-Price">
+                <h4 class="ele-detail-prd-Price">{{pelePrice}}/-</h4>
+            </div>             
+        </div>
+        <div class="ele-com-detail-main-feature">
+            <div class="ele-detail-hd-main-feature">
+                <h3 class="ele-detail-main-feature"> Main features :</h3>
+            </div>     
+            <div class="ele-detail-prd-main-feature">
+                <h4 class="ele-detail-prd-main-feature">{{peleFeature}}</h4>
+            </div>             
+        </div>
+         <div class="ele-com-detail-location">
+            <div class="ele-detail-hd-location">
+                <h3 class="ele-detail-location"> Location :</h3>
+            </div>     
+            <div class="ele-detail-prd-location">
+                <h4 class="ele-detail-prd-location">{{peleLocation}}</h4>
+            </div>             
+        </div>
+        <div class="ele-com-detail-description">
+            <div class="ele-detail-hd-description">
+                <h3 class="ele-detail-description"> Description :</h3>
+            </div>     
+            <div class="ele-detail-prd-description">
+                <h4 class="ele-detail-prd-description">{{peleDescription}}</h4>
+            </div>             
+        </div>
+    </div>
+</div>
+<div class="show-user-details-sections-3 lg-disable">
+    <div class="show-user-details">
+        <div class="show-user-name">
+            <span class="show-name">
+                <h3> Are you ready to exchange with {{sendUserName}} ?</h3>
+            </span>
+        </div>
+        <div class="accept-button" id="accept-button">
+            <button type="submit" id="accept-offer" class="accept-offer"> Exchange </button>
+        </div>
+        <div class="start-button lg-disable" id="start-button">
+            <button type="submit" id="start-chat" class="start-chat"> Start chat </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<link href="app/css/selectBkProduct.css" rel="stylesheet">
+<span><h2 class="select-prd-header"> Please choose products for Exchage </h2></span>
+<div class= "slect-bk-product select-user-products user-products">
+    <div class="user-products">
+        <div class="lg-user-prds-detalis">
+            <div class="lg-user-prd-detalis user-product-section-1">
+                <div class="lg-user-prd-detalis product-lg-container">
+                    <div class="user-product-image">
+                        {{#if eleId}}
+                            <img class="user-product-object" src="app/product_Img/{{eleId}}_{{pfileName}}">
+                        {{else}} 
+                             <img class="user-product-object" src="app/product_Img/{{productId}}_{{pfileName}}">
+                        {{/if}}
+                    </div>
+                </div>
+                <div class="user-product-info"> 
+                    <div class="prd-name">
+                        <h3 class="prd-peleName"> {{pbookName}}{{peleName}}  </h3>
+                    </div>
+                    <div class="user-product-price">
+                        <span><h4>Price: </h4></span>
+                        <span><h4>{{ pbookPrice }}{{pelePrice}}/-</h4></span>
+                    </div>
+                    <div class="user-product-location">
+                        <span class="prd-pblocation"><small> {{ pbookLocation}}{{peleLocation}}</small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sh-user-bk-products" id="sh-user-bk-products"></div>
+</div>
