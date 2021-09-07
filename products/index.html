@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>xch</title>
+    <meta charset="utf-8" />
+    <link href="app/css/bootstrap.css" rel="stylesheet">
+    <link href="app/css/styles.css" rel="stylesheet">
+    <link href="app/css/login-page.css" rel="stylesheet">
+    <link href="app/css/navmenu.css" rel="stylesheet">
+    <link href="app/css/home.css" rel="stylesheet">
+</head>
+<body>
+  <!--
+  Two ways to load your project.
+  In development mode, you will want to load the original source files. Include
+  those lines to load the require.js library and the require.js configuration,
+  then the main module:
+  -->
+
+  <script data-main= "app/main.config.js" src="app/lib/require.js"></script>
+
+  <div class="header"></div>
+  <div class="nav-menu-links"></div>
+  <div class="content-page" id="content-page"></div>
+  <div class="show-user-chat-box ui show-chat-box-lg-disable"></div>
+  <div class="content-footer"></div>
+
+  <!--
+  In production, you will want to load all of the above (including all main
+  module dependencies and precompiled templates). First run
+  r.js -o app.build.js
+  to build the project, then include this line:
+
+  <script src="assets-build/js/main.js"></script>
+  -->
+</body>
+</html>
